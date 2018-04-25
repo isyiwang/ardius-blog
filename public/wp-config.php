@@ -238,6 +238,8 @@ if ( isset( $_ENV['WP_DEBUG'] ) && 'TRUE' == $_ENV['WP_DEBUG'] ) {
 	define( 'WP_DEBUG_DISPLAY', false );
 } else {
 	define( 'WP_DEBUG', false );
+  define( 'WP_DEBUG_LOG', true );
+  define( 'WP_DEBUG_DISPLAY', false );
 }
 
 /* That's all, stop editing! Happy blogging. */
